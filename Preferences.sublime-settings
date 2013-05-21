@@ -1,0 +1,57 @@
+{
+    // Editor settings
+    "font_size": 12.0,
+    "font_options": ["subpixel_antialias", "no_bold"],
+    "highlight_line": true,
+    "line_numbers": true,
+    "rulers":
+    [
+        72,
+        79
+    ],
+    "wrap_width": 80,
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": true,
+    "ensure_newline_at_eof_on_save": true,
+
+    // Interface settings
+    "bold_folder_labels": true,
+    "close_windows_when_empty": false,
+    "fold_buttons": false,
+    "file_exclude_patterns":
+    [
+        ".DS_Store",
+        "*.pid",
+        "*.pyc"
+    ],
+    "folder_exclude_patterns":
+    [
+        ".git",
+        "__pycache__",
+        "env",
+        "env3"
+    ],
+    "scroll_past_end": false,
+    "show_full_path": true,
+
+
+    // Theme settings
+    "color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+    "theme": "Soda Light.sublime-theme",
+    "soda_folder_icons": false,
+
+    // Python settings
+	"auto_complete_triggers":
+	[
+		{
+			"characters": ".",
+			"selector": "source.python"
+		}
+	],
+    "sublimelinter_delay": 500,
+    "sublimelinter_executable_map":
+    {
+        "python": "python3"
+    }
+}
